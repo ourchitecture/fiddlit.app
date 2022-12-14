@@ -1,1 +1,225 @@
-{"index":{"version":"2.3.9","fields":["title","description","keywords","body"],"fieldVectors":[["title/home",[0,0.182]],["description/home",[1,0.288]],["keywords/home",[2,0.288,3,0.288,4,0.288,5,0.288,6,0.288,7,0.288,8,0.288,9,0.288,10,0.288]],["body/home",[0,0.182,11,0.288,12,0.288,13,0.288,14,0.288,15,0.288,16,0.288,17,0.288,18,0.288]]],"invertedIndex":[["applic",{"_index":18,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["architectur",{"_index":5,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["continu",{"_index":16,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["devop",{"_index":6,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["digital supply chain",{"_index":2,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["digital transform",{"_index":4,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["enabl",{"_index":14,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["fiddleit",{"_index":1,"title":{},"description":{"home":{}},"keywords":{},"body":{}}],["fiddleit.app",{"_index":0,"title":{"home":{}},"description":{},"keywords":{},"body":{"home":{}}}],["fiddleit.appcom",{"_index":11,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["javascript",{"_index":15,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["ourchitectur",{"_index":10,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["peopl",{"_index":7,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["pleas",{"_index":13,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["process",{"_index":8,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["software supply chain",{"_index":3,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["soon",{"_index":12,"title":{},"description":{},"keywords":{},"body":{"home":{}}}],["technolog",{"_index":9,"title":{},"description":{},"keywords":{"home":{}},"body":{}}],["us",{"_index":17,"title":{},"description":{},"keywords":{},"body":{"home":{}}}]],"pipeline":["stemmer"]},"documents":[{"id":"home","url":"/","title":"FiddleIt.app","description":"FiddleIt"}]}
+{
+  "index": {
+    "version": "2.3.9",
+    "fields": ["title", "description", "keywords", "body"],
+    "fieldVectors": [
+      ["title/home", [0, 0.182]],
+      ["description/home", [1, 0.288]],
+      [
+        "keywords/home",
+        [
+          2, 0.288, 3, 0.288, 4, 0.288, 5, 0.288, 6, 0.288, 7, 0.288, 8, 0.288,
+          9, 0.288, 10, 0.288
+        ]
+      ],
+      [
+        "body/home",
+        [
+          0, 0.182, 11, 0.288, 12, 0.288, 13, 0.288, 14, 0.288, 15, 0.288, 16,
+          0.288, 17, 0.288, 18, 0.288
+        ]
+      ]
+    ],
+    "invertedIndex": [
+      [
+        "applic",
+        {
+          "_index": 18,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "architectur",
+        {
+          "_index": 5,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "continu",
+        {
+          "_index": 16,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "devop",
+        {
+          "_index": 6,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "digital supply chain",
+        {
+          "_index": 2,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "digital transform",
+        {
+          "_index": 4,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "enabl",
+        {
+          "_index": 14,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "fiddlit",
+        {
+          "_index": 1,
+          "title": {},
+          "description": { "home": {} },
+          "keywords": {},
+          "body": {}
+        }
+      ],
+      [
+        "fiddlit.app",
+        {
+          "_index": 0,
+          "title": { "home": {} },
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "fiddlit.appcom",
+        {
+          "_index": 11,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "javascript",
+        {
+          "_index": 15,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "ourchitectur",
+        {
+          "_index": 10,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "peopl",
+        {
+          "_index": 7,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "pleas",
+        {
+          "_index": 13,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "process",
+        {
+          "_index": 8,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "software supply chain",
+        {
+          "_index": 3,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "soon",
+        {
+          "_index": 12,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ],
+      [
+        "technolog",
+        {
+          "_index": 9,
+          "title": {},
+          "description": {},
+          "keywords": { "home": {} },
+          "body": {}
+        }
+      ],
+      [
+        "us",
+        {
+          "_index": 17,
+          "title": {},
+          "description": {},
+          "keywords": {},
+          "body": { "home": {} }
+        }
+      ]
+    ],
+    "pipeline": ["stemmer"]
+  },
+  "documents": [
+    {
+      "id": "home",
+      "url": "/",
+      "title": "fiddlit.app",
+      "description": "fiddlit"
+    }
+  ]
+}

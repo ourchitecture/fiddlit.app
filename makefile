@@ -53,7 +53,7 @@ main:
 # .PHONY: create
 # create:
 # 	@npx @ionic/cli start \
-# 		fiddleit \
+# 		fiddlit \
 # 		blank \
 # 		--type=angular \
 # 		--no-git
