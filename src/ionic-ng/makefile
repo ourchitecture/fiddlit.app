@@ -37,7 +37,7 @@ check-e2e:
 		--exit
 
 .PHONY: check
-check: check-unit
+check: check-unit check-e2e
 
 .PHONY: install
 install:
@@ -69,3 +69,13 @@ dev-test:
 .PHONY: dev-e2e
 dev-e2e:
 	@yarn e2e
+
+# # kept for posterity
+# .PHONY: add-pwa
+# add-pwa:
+#   @yarn ng add @angular/pwa
+
+# # kept for posterity
+# .PHONY: add-cypress
+# add-cypress:
+# 	@yarn ng add @cypress/schematic
