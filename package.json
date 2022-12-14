@@ -1,0 +1,8 @@
+{
+  "name": "fiddlit",
+  "private": true,
+  "version": "0.0.1-alpha",
+  "workspaces": [
+    "./src/ionic-ng"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fiddleit",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
